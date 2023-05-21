@@ -1,0 +1,97 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(205, 143, 50);
+}
+thead{
+    width: 80%;
+    height: 10%;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(241, 237, 237);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="text"],input[type="number"]{
+    width:70%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(205, 143, 50);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(205, 143, 50);
+}
+
+input[type="reset"]:hover{
+    background:rgb(205, 143, 50);
+}
+
+button{
+    background: rgb(255, 255, 255);
+    padding:6px 12px;
+    margin:25px 600px 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    flex-direction: row;
+    text-align: center;
+}
+
+button:hover{
+    background:rgb(255, 255, 255);
+}
+
+.cardform
+{
+    background-color: yellow;
+}
+
+.textheading
+{
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+
+}
+
+
+
+
